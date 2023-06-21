@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">  
+
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter your username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <button id="login-btn">Login</button>
+    <button id="signup-btn">Sign up</button>
+    <p id="error-message" class="error-message"></p>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h3>Sign Up</h3>
+      <div class="form-group">
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" placeholder="Choose a username">
+      </div>
+      <div class="form-group">
+        <label for="signup-email">Email:</label>
+        <input type="text" id="signup-email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" placeholder="Choose a password">
+      </div>
+      <button id="signup-submit">Submit</button>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
